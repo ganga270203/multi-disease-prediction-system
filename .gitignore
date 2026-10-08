@@ -1,0 +1,20 @@
+# Virtual Environment
+venv/
+env/
+.env
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Model artifacts and checkpoints (optional: keep if hosting small demos)
+# models/*.joblib
+# data/raw/*.csv
+
+# Streamlit config
+.streamlit/

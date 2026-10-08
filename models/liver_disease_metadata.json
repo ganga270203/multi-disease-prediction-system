@@ -1,0 +1,105 @@
+{
+    "safe_name": "liver_disease",
+    "display_name": "Liver Disease",
+    "icon": "\ud83e\udec0",
+    "accuracy": 0.6068,
+    "roc_auc": 0.5259,
+    "best_model": "Random Forest",
+    "features": [
+        "Age",
+        "Gender",
+        "Total_Bilirubin",
+        "Direct_Bilirubin",
+        "Alkaline_Phosphotase",
+        "Alamine_Aminotransferase",
+        "Aspartate_Aminotransferase",
+        "Total_Protiens",
+        "Albumin",
+        "Albumin_and_Globulin_Ratio"
+    ],
+    "feature_stats": {
+        "Age": {
+            "min": 10.0,
+            "max": 84.0,
+            "mean": 46.315608919382505,
+            "unique": 75
+        },
+        "Gender": {
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.725557461406518,
+            "unique": 2
+        },
+        "Total_Bilirubin": {
+            "min": 0.54,
+            "max": 27.98,
+            "mean": 14.426655231560892,
+            "unique": 527
+        },
+        "Direct_Bilirubin": {
+            "min": 0.14,
+            "max": 11.98,
+            "mean": 6.090960548885077,
+            "unique": 461
+        },
+        "Alkaline_Phosphotase": {
+            "min": 60.0,
+            "max": 1499.0,
+            "mean": 791.9125214408233,
+            "unique": 464
+        },
+        "Alamine_Aminotransferase": {
+            "min": 10.0,
+            "max": 999.0,
+            "mean": 510.2504288164665,
+            "unique": 458
+        },
+        "Aspartate_Aminotransferase": {
+            "min": 12.0,
+            "max": 1199.0,
+            "mean": 603.2332761578044,
+            "unique": 466
+        },
+        "Total_Protiens": {
+            "min": 2.72,
+            "max": 9.58,
+            "mean": 6.064391080617495,
+            "unique": 389
+        },
+        "Albumin": {
+            "min": 0.9,
+            "max": 5.49,
+            "mean": 3.1213550600343054,
+            "unique": 326
+        },
+        "Albumin_and_Globulin_Ratio": {
+            "min": 0.3,
+            "max": 2.79,
+            "mean": 1.5540994854202401,
+            "unique": 229
+        }
+    },
+    "confusion_matrix": [
+        [
+            7,
+            23
+        ],
+        [
+            23,
+            64
+        ]
+    ],
+    "feature_importance": {
+        "Age": 0.0886,
+        "Gender": 0.0147,
+        "Total_Bilirubin": 0.1037,
+        "Direct_Bilirubin": 0.1136,
+        "Alkaline_Phosphotase": 0.1129,
+        "Alamine_Aminotransferase": 0.115,
+        "Aspartate_Aminotransferase": 0.1061,
+        "Total_Protiens": 0.1289,
+        "Albumin": 0.0914,
+        "Albumin_and_Globulin_Ratio": 0.1253
+    },
+    "is_multiclass": false
+}

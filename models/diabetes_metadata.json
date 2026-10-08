@@ -1,0 +1,89 @@
+{
+    "safe_name": "diabetes",
+    "display_name": "Diabetes",
+    "icon": "\ud83e\ude78",
+    "accuracy": 0.7597,
+    "roc_auc": 0.8048,
+    "best_model": "Random Forest",
+    "features": [
+        "Pregnancies",
+        "Glucose",
+        "BloodPressure",
+        "SkinThickness",
+        "Insulin",
+        "BMI",
+        "DiabetesPedigreeFunction",
+        "Age"
+    ],
+    "feature_stats": {
+        "Pregnancies": {
+            "min": 0.0,
+            "max": 17.0,
+            "mean": 3.8450520833333335,
+            "unique": 17
+        },
+        "Glucose": {
+            "min": 0.0,
+            "max": 199.0,
+            "mean": 120.89453125,
+            "unique": 136
+        },
+        "BloodPressure": {
+            "min": 0.0,
+            "max": 122.0,
+            "mean": 69.10546875,
+            "unique": 47
+        },
+        "SkinThickness": {
+            "min": 0.0,
+            "max": 99.0,
+            "mean": 20.536458333333332,
+            "unique": 51
+        },
+        "Insulin": {
+            "min": 0.0,
+            "max": 846.0,
+            "mean": 79.79947916666667,
+            "unique": 186
+        },
+        "BMI": {
+            "min": 0.0,
+            "max": 67.1,
+            "mean": 31.992578124999998,
+            "unique": 248
+        },
+        "DiabetesPedigreeFunction": {
+            "min": 0.078,
+            "max": 2.42,
+            "mean": 0.47187630208333325,
+            "unique": 517
+        },
+        "Age": {
+            "min": 21.0,
+            "max": 81.0,
+            "mean": 33.240885416666664,
+            "unique": 52
+        }
+    },
+    "confusion_matrix": [
+        [
+            76,
+            23
+        ],
+        [
+            14,
+            41
+        ]
+    ],
+    "feature_importance": {
+        "Pregnancies": 0.0708,
+        "Glucose": 0.249,
+        "BloodPressure": 0.089,
+        "SkinThickness": 0.0705,
+        "Insulin": 0.072,
+        "BMI": 0.1865,
+        "DiabetesPedigreeFunction": 0.1135,
+        "Age": 0.1488
+    },
+    "is_multiclass": false
+}

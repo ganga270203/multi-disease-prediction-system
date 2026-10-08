@@ -1,0 +1,137 @@
+{
+    "safe_name": "kidney_disease",
+    "display_name": "Kidney Disease",
+    "icon": "\ud83e\udec1",
+    "accuracy": 0.525,
+    "roc_auc": 0.4448,
+    "best_model": "Random Forest",
+    "features": [
+        "age",
+        "bp",
+        "sg",
+        "al",
+        "su",
+        "bgr",
+        "bu",
+        "sc",
+        "sod",
+        "pot",
+        "hemo",
+        "pcv",
+        "wbcc",
+        "rbcc"
+    ],
+    "feature_stats": {
+        "age": {
+            "min": 20.0,
+            "max": 79.0,
+            "mean": 49.8825,
+            "unique": 60
+        },
+        "bp": {
+            "min": 60.0,
+            "max": 100.0,
+            "mean": 80.6,
+            "unique": 5
+        },
+        "sg": {
+            "min": 1.005,
+            "max": 1.025,
+            "mean": 1.0147875,
+            "unique": 5
+        },
+        "al": {
+            "min": 0.0,
+            "max": 4.0,
+            "mean": 1.105,
+            "unique": 5
+        },
+        "su": {
+            "min": 0.0,
+            "max": 4.0,
+            "mean": 0.55,
+            "unique": 5
+        },
+        "bgr": {
+            "min": 72.0,
+            "max": 489.0,
+            "mean": 281.245,
+            "unique": 264
+        },
+        "bu": {
+            "min": 11.0,
+            "max": 199.0,
+            "mean": 108.0525,
+            "unique": 167
+        },
+        "sc": {
+            "min": 0.4,
+            "max": 15.0,
+            "mean": 7.70875,
+            "unique": 139
+        },
+        "sod": {
+            "min": 110.0,
+            "max": 159.0,
+            "mean": 134.795,
+            "unique": 50
+        },
+        "pot": {
+            "min": 2.5,
+            "max": 7.5,
+            "mean": 5.01575,
+            "unique": 51
+        },
+        "hemo": {
+            "min": 3.1,
+            "max": 17.8,
+            "mean": 10.380500000000001,
+            "unique": 139
+        },
+        "pcv": {
+            "min": 15.0,
+            "max": 53.0,
+            "mean": 33.5675,
+            "unique": 39
+        },
+        "wbcc": {
+            "min": 2216.0,
+            "max": 26350.0,
+            "mean": 14598.895,
+            "unique": 397
+        },
+        "rbcc": {
+            "min": 2.1,
+            "max": 6.5,
+            "mean": 4.271,
+            "unique": 45
+        }
+    },
+    "confusion_matrix": [
+        [
+            10,
+            16
+        ],
+        [
+            22,
+            32
+        ]
+    ],
+    "feature_importance": {
+        "age": 0.0784,
+        "bp": 0.0438,
+        "sg": 0.043,
+        "al": 0.0329,
+        "su": 0.0184,
+        "bgr": 0.0945,
+        "bu": 0.0961,
+        "sc": 0.0879,
+        "sod": 0.0768,
+        "pot": 0.0886,
+        "hemo": 0.1009,
+        "pcv": 0.0674,
+        "wbcc": 0.086,
+        "rbcc": 0.0851
+    },
+    "is_multiclass": false
+}

@@ -1,0 +1,129 @@
+{
+    "safe_name": "heart_disease",
+    "display_name": "Heart Disease",
+    "icon": "\u2764\ufe0f",
+    "accuracy": 0.8689,
+    "roc_auc": 0.9219,
+    "best_model": "Random Forest",
+    "features": [
+        "age",
+        "sex",
+        "cp",
+        "trestbps",
+        "chol",
+        "fbs",
+        "restecg",
+        "thalach",
+        "exang",
+        "oldpeak",
+        "slope",
+        "ca",
+        "thal"
+    ],
+    "feature_stats": {
+        "age": {
+            "min": 29.0,
+            "max": 77.0,
+            "mean": 54.366336633663366,
+            "unique": 41
+        },
+        "sex": {
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.6831683168316832,
+            "unique": 2
+        },
+        "cp": {
+            "min": 0.0,
+            "max": 3.0,
+            "mean": 0.966996699669967,
+            "unique": 4
+        },
+        "trestbps": {
+            "min": 94.0,
+            "max": 200.0,
+            "mean": 131.62376237623764,
+            "unique": 49
+        },
+        "chol": {
+            "min": 126.0,
+            "max": 564.0,
+            "mean": 246.26402640264027,
+            "unique": 152
+        },
+        "fbs": {
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.1485148514851485,
+            "unique": 2
+        },
+        "restecg": {
+            "min": 0.0,
+            "max": 2.0,
+            "mean": 0.528052805280528,
+            "unique": 3
+        },
+        "thalach": {
+            "min": 71.0,
+            "max": 202.0,
+            "mean": 149.64686468646866,
+            "unique": 91
+        },
+        "exang": {
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.32673267326732675,
+            "unique": 2
+        },
+        "oldpeak": {
+            "min": 0.0,
+            "max": 6.2,
+            "mean": 1.0396039603960396,
+            "unique": 40
+        },
+        "slope": {
+            "min": 0.0,
+            "max": 2.0,
+            "mean": 1.3993399339933994,
+            "unique": 3
+        },
+        "ca": {
+            "min": 0.0,
+            "max": 4.0,
+            "mean": 0.7293729372937293,
+            "unique": 5
+        },
+        "thal": {
+            "min": 0.0,
+            "max": 3.0,
+            "mean": 2.3135313531353137,
+            "unique": 4
+        }
+    },
+    "confusion_matrix": [
+        [
+            24,
+            5
+        ],
+        [
+            3,
+            29
+        ]
+    ],
+    "feature_importance": {
+        "age": 0.0967,
+        "sex": 0.0439,
+        "cp": 0.1269,
+        "trestbps": 0.0721,
+        "chol": 0.0758,
+        "fbs": 0.0127,
+        "restecg": 0.0179,
+        "thalach": 0.1213,
+        "exang": 0.0484,
+        "oldpeak": 0.123,
+        "slope": 0.0603,
+        "ca": 0.1135,
+        "thal": 0.0875
+    },
+    "is_multiclass": false
+}
